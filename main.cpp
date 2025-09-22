@@ -29,11 +29,10 @@ int main()
     cout << "masukan lebar nya ";
     cin >> lebar;
 
-    cout << "ini luas nya untuk yang kedua " << r1.luas() << endl;
+    // ingat habis bikin file bikin objek dulu
+    Regtangle r2(panjang, lebar);
+    cout << "ini luas nya untuk yang kedua " << r2.luas() << endl;
 
-    // cout<<"coba lagi dengan nilai lain"
-    // Regtangle r2(7, 3);
-    // r2.display();
     cin.get();
     cin.get();
     return 0;
